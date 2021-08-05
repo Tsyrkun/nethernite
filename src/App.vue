@@ -7,6 +7,7 @@
       dark
       padless
       app
+      absolute
     >
       <Footer />
     </v-footer>
