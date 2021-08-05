@@ -64,10 +64,10 @@
         </v-toolbar>
         <v-card-text class="v-dialog-content overflow-y-auto">
           <PackageDialogContent :packageItem="selectedPackage"> </PackageDialogContent>
+          <v-card-actions class="justify-end">
+            <v-btn text @click="closeDetails">Close </v-btn>
+          </v-card-actions>
         </v-card-text>
-        <v-card-actions class="justify-end">
-          <v-btn text @click="closeDetails">Close </v-btn>
-        </v-card-actions>
       </v-card>
     </v-dialog>
   </v-container>
